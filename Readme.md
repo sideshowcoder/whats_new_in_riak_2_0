@@ -2,7 +2,7 @@ Quick overview of some new stuff in Riak 2.0
 ============================================
 
 Talk about Riak 2.0 at [Munich Riak UG](http://www.meetup.com/Riak-Munchen/) on
-11.12.2013
+11.12.2013. Slides with more links to talks are on [Slideshare](http://www.slideshare.net/philippfehre/what-is-new-in-riak-20)
 
 Setup
 -----
@@ -45,8 +45,8 @@ Now you can query riak via the browser here are some examples
 
 * [all the cities](http://localhost:8098/search/cities?q=*:*&wt=json)
 * [cities which start with a](http://localhost:8098/search/cities?q=city_s:a*&wt=json)
-* [cities with a sorted by population)[http://localhost:8098/search/cities?q=city_s:a*&wt=json&sort=population_i%20desc]
-* [cities in a 100km radius from munich)[http://localhost:8098/search/cities?q=*:*&wt=json&fq={!geofilt%20pt=48.1500,11.5833%20sfield=location_p%20d=100}&sort=population_i%20desc)
+* [cities with a sorted by population](http://localhost:8098/search/cities?q=city_s:a*&wt=json&sort=population_i%20desc)
+* [cities in a 100km radius from munich](http://localhost:8098/search/cities?q=*:*&wt=json&fq={!geofilt%20pt=48.1500,11.5833%20sfield=location_p%20d=100}&sort=population_i%20desc)
 
 CRDT examples using [Meangirls](https://github.com/aphyr/meangirls)
 -------------------------------------------------------------------
@@ -59,6 +59,9 @@ All the following is done in the directory ```crdts_examples_ruby```
 2. run the examples
   ```
   ruby gcounter.rb
+  ```
+and 
+  ```
   ruby or_set.rb
   ```
 
