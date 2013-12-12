@@ -1,0 +1,5 @@
+source "https://rubygems.org"
+
+gem "meangirls", github: "aphyr/meangirls", branch: "master"
+gem "yajl-ruby"
+gem "pry"
