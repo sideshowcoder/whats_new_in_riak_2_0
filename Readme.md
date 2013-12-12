@@ -65,5 +65,10 @@ and
   ruby or_set.rb
   ```
 
+Some more links about the CRDTs in depth
+* [The pullrequest](https://github.com/basho/riak/issues/354)
+* [A paper](http://arxiv.org/pdf/1210.3368.pdf)
+
+
 
 
